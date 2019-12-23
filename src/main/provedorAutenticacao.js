@@ -28,8 +28,8 @@ class ProvedorAutenticacao extends React.Component{
         const contexto = {
             usuarioAutenticado: this.state.usuarioAutenticado,
             isAutenticado: this.state.isAutenticado,
-            iniciarSessao: this.state.iniciarSessao,
-            encerrarSessao: this.state.encerrarSessao
+            iniciarSessao: this.iniciarSessao,
+            encerrarSessao: this.encerrarSessao,
         }
 
         return(
